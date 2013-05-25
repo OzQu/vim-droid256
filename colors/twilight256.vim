@@ -8,6 +8,13 @@ if version > 580
 	endif
 endif
 
+
+if exists("g:twilight_transparent") && g:twilight_transparent == 1
+	hi Normal ctermfg=15 ctermbg=none cterm=NONE
+else
+	hi Normal ctermfg=15 ctermbg=234 cterm=NONE
+endif
+
 set t_Co=256
 let g:colors_name = "twilight256"
 
@@ -77,8 +84,6 @@ hi Macro ctermfg=179 ctermbg=NONE cterm=NONE
 hi MatchParen ctermfg=255 ctermbg=NONE cterm=NONE
 hi ModeMsg ctermfg=249 ctermbg=NONE cterm=NONE
 hi NonText ctermfg=235 ctermbg=NONE cterm=NONE
-" hi Normal ctermfg=15 ctermbg=234 cterm=NONE
-hi Normal ctermfg=15 ctermbg=none cterm=NONE
 hi Number ctermfg=209 ctermbg=NONE cterm=NONE
 hi PMenu ctermfg=253 ctermbg=235 cterm=NONE
 hi PMenuSbar ctermfg=NONE ctermbg=237 cterm=NONE
@@ -92,7 +97,7 @@ hi Special ctermfg=209 ctermbg=NONE cterm=NONE
 hi SpecialKey ctermfg=8 ctermbg=NONE cterm=NONE
 hi Statement ctermfg=215 ctermbg=NONE cterm=NONE
 hi StatusLine ctermfg=255 ctermbg=236 cterm=NONE
-hi StatusLineNC ctermfg=255 ctermbg=236 cterm=NONE
+hi StatusLineNC ctermfg=236 ctermbg=236 cterm=NONE
 hi String ctermfg=149 ctermbg=NONE cterm=NONE
 hi Structure ctermfg=247 ctermbg=NONE cterm=NONE
 hi TabLine ctermfg=NONE ctermbg=7 cterm=NONE
@@ -122,7 +127,7 @@ hi perlspecialmatch ctermfg=176 ctermbg=238 cterm=NONE
 hi perlspecialstring ctermfg=176 ctermbg=238 cterm=NONE
 hi taglisttagname ctermfg=105 ctermbg=NONE cterm=NONE
 
-if exists("g:twilightbar") && g:twilightbar == 1
+if exists("g:twilight_bar") && g:twilight_bar == 1
 	hi User1 ctermfg=255 ctermbg=243 cterm=NONE
 	hi User2 ctermfg=255 ctermbg=243 cterm=bold
 	hi User3 ctermfg=166 ctermbg=236 cterm=NONE
@@ -135,7 +140,7 @@ if exists("g:twilightbar") && g:twilightbar == 1
 
 	set statusline=%1*%02v%2*\ %P
 	set statusline+=\ %6*%{\"\\u25e3\"}
-	set statusline+=%5*%{&paste?'P':''}\ %t\ %4*%{\"\\u25e3\"}
+	set statusline+=%5*\ %t\ %{&paste?'P':''}\ \%4*%{\"\\u25e3\"}
 	set statusline+=%=
 	set statusline+=%4*%{\"\\u25e2\"}
 	set statusline+=%5*\ %{&enc}\ %{&ff}
