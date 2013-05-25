@@ -91,8 +91,8 @@ hi SignColumn ctermfg=145 ctermbg=234 cterm=NONE
 hi Special ctermfg=209 ctermbg=NONE cterm=NONE
 hi SpecialKey ctermfg=8 ctermbg=NONE cterm=NONE
 hi Statement ctermfg=215 ctermbg=NONE cterm=NONE
-hi StatusLine ctermfg=255 ctermbg=239 cterm=NONE
-hi StatusLineNC ctermfg=7 ctermbg=59 cterm=NONE
+hi StatusLine ctermfg=255 ctermbg=236 cterm=NONE
+hi StatusLineNC ctermfg=255 ctermbg=236 cterm=NONE
 hi String ctermfg=149 ctermbg=NONE cterm=NONE
 hi Structure ctermfg=247 ctermbg=NONE cterm=NONE
 hi TabLine ctermfg=NONE ctermbg=7 cterm=NONE
@@ -122,7 +122,6 @@ hi perlspecialmatch ctermfg=176 ctermbg=238 cterm=NONE
 hi perlspecialstring ctermfg=176 ctermbg=238 cterm=NONE
 hi taglisttagname ctermfg=105 ctermbg=NONE cterm=NONE
 hi link User1 Statusline
-hi Statusline cterm=NONE
 hi User1 ctermfg=231 ctermbg=236 cterm=NONE
 hi User3 ctermfg=166 ctermbg=236 cterm=bold
 hi User4 ctermfg=247 ctermbg=236 cterm=NONE
