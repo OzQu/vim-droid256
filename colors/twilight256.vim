@@ -67,7 +67,6 @@ hi CursorLine ctermfg=NONE ctermbg=235 cterm=NONE
 hi CursorLineNr cterm=none ctermfg=214
 hi Define ctermfg=179 ctermbg=NONE cterm=NONE
 hi EasyMotionTarget ctermbg=233 ctermfg=46
-hi EasyMotionTarget
 hi ErrorMsg ctermfg=166 ctermbg=NONE cterm=NONE
 hi Folded ctermfg=103 ctermbg=238 cterm=NONE
 hi Function ctermfg=186 ctermbg=NONE cterm=NONE
