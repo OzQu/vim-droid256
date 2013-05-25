@@ -122,5 +122,10 @@ hi mbevisiblenormal guifg=#cfcfcd guibg=#4e4e8f guisp=#4e4e8f gui=NONE ctermfg=2
 hi perlspecialmatch guifg=#c080d0 guibg=#404040 guisp=#404040 gui=NONE ctermfg=176 ctermbg=238 cterm=NONE
 hi perlspecialstring guifg=#c080d0 guibg=#404040 guisp=#404040 gui=NONE ctermfg=176 ctermbg=238 cterm=NONE
 hi taglisttagname guifg=#808bed guibg=NONE guisp=NONE gui=NONE ctermfg=105 ctermbg=NONE cterm=NONE
-hi user1 guifg=#00ff8b guibg=#3e3e5e guisp=#3e3e5e gui=NONE ctermfg=48 ctermbg=60 cterm=NONE
-hi user2 guifg=#7070a0 guibg=#3e3e5e guisp=#3e3e5e gui=NONE ctermfg=103 ctermbg=60 cterm=NONE
+hi link User1 Statusline
+hi Statusline cterm=NONE
+hi User1 ctermfg=231 ctermbg=236 cterm=NONE guifg=#FFFFFF guibg=#303030
+hi User3 ctermfg=166 ctermbg=236 cterm=bold guifg=#FFFFFF guibg=#303030
+hi User4 ctermfg=247 ctermbg=236 cterm=NONE guifg=#FFFFFF guibg=#303030
+hi User5 ctermfg=76  ctermbg=236 cterm=bold guifg=#FFFFFF guibg=#303030
+hi User6 ctermfg=196 ctermbg=236 cterm=bold guifg=#FFFFFF guibg=#303030
