@@ -47,7 +47,7 @@ hi ColorColumn ctermbg=235
 "hi MoreMsg -- no settings --
 "hi Operator -- no settings --
 "hi Repeat -- no settings --
-"hi Search -- no settings --
+hi Search ctermfg=227 ctermbg=NONE
 "hi SpecialChar -- no settings --
 "hi SpecialComment -- no settings --
 hi SpellBad ctermfg=166 ctermbg=236 cterm=NONE
