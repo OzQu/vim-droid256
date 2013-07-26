@@ -31,6 +31,12 @@ let g:colors_name = "twilight256"
 "hi DiffChange -- no settings --
 "hi DiffDelete -- no settings --
 "hi DiffText -- no settings --
+highlight DiffAdd           cterm=bold ctermbg=none ctermfg=119
+highlight DiffDelete        cterm=bold ctermbg=none ctermfg=167
+highlight DiffChange        cterm=bold ctermbg=none ctermfg=227
+highlight SignifySignAdd    cterm=bold ctermbg=234  ctermfg=119
+highlight SignifySignDelete cterm=bold ctermbg=234  ctermfg=167
+highlight SignifySignChange cterm=bold ctermbg=234  ctermfg=227
 "hi Directory -- no settings --
 "hi EnumerationName -- no settings --
 "hi EnumerationValue -- no settings --
@@ -127,25 +133,25 @@ hi perlspecialmatch ctermfg=176 ctermbg=238 cterm=NONE
 hi perlspecialstring ctermfg=176 ctermbg=238 cterm=NONE
 hi taglisttagname ctermfg=105 ctermbg=NONE cterm=NONE
 
-if exists("g:twilight_bar") && g:twilight_bar == 1
-	hi User1 ctermfg=255 ctermbg=243 cterm=NONE
-	hi User2 ctermfg=255 ctermbg=243 cterm=bold
-	hi User3 ctermfg=166 ctermbg=236 cterm=NONE
-	hi User4 ctermfg=238 ctermbg=236 cterm=NONE
-	hi User5 ctermfg=76  ctermbg=238 cterm=NONE
-	hi User6 ctermfg=243 ctermbg=238 cterm=NONE
-	hi User7 ctermfg=254 ctermbg=243 cterm=NONE
-	hi User8 ctermfg=254 ctermbg=243 cterm=NONE
-	hi User9 ctermfg=202 ctermbg=243 cterm=NONE
-
-	set statusline=%1*%02v%2*\ %P
-	set statusline+=\ %6*%{\"\\u25e3\"}
-	set statusline+=%5*\ %t\ %{&paste?'P':''}\ \%4*%{\"\\u25e3\"}
-	set statusline+=%=
-	set statusline+=%4*%{\"\\u25e2\"}
-	set statusline+=%5*\ %{&enc}\ %{&ff}
-	set statusline+=\ %6*%{\"\\u25e2\"}
-	set statusline+=%8*\ %{tolower(&ft)}
-	set statusline+=%9*%{&mod?'+':''}
-	set statusline+=%9*%{&ro?'-':''}\ %1*
-endif
+" if exists("g:twilight_bar") && g:twilight_bar == 1
+" 	hi User1 ctermfg=255 ctermbg=243 cterm=NONE
+" 	hi User2 ctermfg=255 ctermbg=243 cterm=bold
+" 	hi User3 ctermfg=166 ctermbg=236 cterm=NONE
+" 	hi User4 ctermfg=238 ctermbg=236 cterm=NONE
+" 	hi User5 ctermfg=76  ctermbg=238 cterm=NONE
+" 	hi User6 ctermfg=243 ctermbg=238 cterm=NONE
+" 	hi User7 ctermfg=254 ctermbg=243 cterm=NONE
+" 	hi User8 ctermfg=254 ctermbg=243 cterm=NONE
+" 	hi User9 ctermfg=202 ctermbg=243 cterm=NONE
+" 
+" 	set statusline=%1*%02v%2*\ %P
+" 	set statusline+=\ %6*%{\"\\u25e3\"}
+" 	set statusline+=%5*\ %t\ %{&paste?'P':''}\ \%4*%{\"\\u25e3\"}
+" 	set statusline+=%=
+" 	set statusline+=%4*%{\"\\u25e2\"}
+" 	set statusline+=%5*\ %{&enc}\ %{&ff}
+" 	set statusline+=\ %6*%{\"\\u25e2\"}
+" 	set statusline+=%8*\ %{tolower(&ft)}
+" 	set statusline+=%9*%{&mod?'+':''}
+" 	set statusline+=%9*%{&ro?'-':''}\ %1*
+" endif
