@@ -132,26 +132,3 @@ hi mbevisiblenormal ctermfg=252 ctermbg=60 cterm=NONE
 hi perlspecialmatch ctermfg=176 ctermbg=238 cterm=NONE
 hi perlspecialstring ctermfg=176 ctermbg=238 cterm=NONE
 hi taglisttagname ctermfg=105 ctermbg=NONE cterm=NONE
-
-" if exists("g:twilight_bar") && g:twilight_bar == 1
-" 	hi User1 ctermfg=255 ctermbg=243 cterm=NONE
-" 	hi User2 ctermfg=255 ctermbg=243 cterm=bold
-" 	hi User3 ctermfg=166 ctermbg=236 cterm=NONE
-" 	hi User4 ctermfg=238 ctermbg=236 cterm=NONE
-" 	hi User5 ctermfg=76  ctermbg=238 cterm=NONE
-" 	hi User6 ctermfg=243 ctermbg=238 cterm=NONE
-" 	hi User7 ctermfg=254 ctermbg=243 cterm=NONE
-" 	hi User8 ctermfg=254 ctermbg=243 cterm=NONE
-" 	hi User9 ctermfg=202 ctermbg=243 cterm=NONE
-" 
-" 	set statusline=%1*%02v%2*\ %P
-" 	set statusline+=\ %6*%{\"\\u25e3\"}
-" 	set statusline+=%5*\ %t\ %{&paste?'P':''}\ \%4*%{\"\\u25e3\"}
-" 	set statusline+=%=
-" 	set statusline+=%4*%{\"\\u25e2\"}
-" 	set statusline+=%5*\ %{&enc}\ %{&ff}
-" 	set statusline+=\ %6*%{\"\\u25e2\"}
-" 	set statusline+=%8*\ %{tolower(&ft)}
-" 	set statusline+=%9*%{&mod?'+':''}
-" 	set statusline+=%9*%{&ro?'-':''}\ %1*
-" endif
