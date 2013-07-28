@@ -12,7 +12,7 @@ endif
 if exists("g:twilight_transparent") && g:twilight_transparent == 1
 	hi Normal ctermfg=15 ctermbg=none cterm=NONE
 else
-	hi Normal ctermfg=15 ctermbg=234 cterm=NONE
+	hi Normal ctermfg=15 ctermbg=233 cterm=NONE
 endif
 
 set t_Co=256
@@ -31,12 +31,12 @@ let g:colors_name = "twilight256"
 "hi DiffChange -- no settings --
 "hi DiffDelete -- no settings --
 "hi DiffText -- no settings --
-highlight DiffAdd           cterm=bold ctermbg=none ctermfg=119
-highlight DiffDelete        cterm=bold ctermbg=none ctermfg=167
-highlight DiffChange        cterm=bold ctermbg=none ctermfg=227
-highlight SignifySignAdd    cterm=bold ctermbg=234  ctermfg=119
-highlight SignifySignDelete cterm=bold ctermbg=234  ctermfg=167
-highlight SignifySignChange cterm=bold ctermbg=234  ctermfg=227
+highlight DiffAdd           cterm=bold ctermbg=none ctermfg=112
+highlight DiffDelete        cterm=bold ctermbg=none ctermfg=160
+highlight DiffChange        cterm=bold ctermbg=none ctermfg=220
+highlight SignifySignAdd    cterm=bold ctermbg=233  ctermfg=112
+highlight SignifySignDelete cterm=bold ctermbg=233  ctermfg=160
+highlight SignifySignChange cterm=bold ctermbg=233  ctermfg=220
 "hi Directory -- no settings --
 "hi EnumerationName -- no settings --
 "hi EnumerationValue -- no settings --
@@ -77,7 +77,7 @@ hi Constant ctermfg=173 ctermbg=NONE cterm=NONE
 hi Cursor ctermfg=233 ctermbg=254 cterm=NONE
 hi CursorColumn ctermfg=NONE ctermbg=235 cterm=NONE
 hi CursorLine ctermfg=NONE ctermbg=235 cterm=NONE
-hi CursorLineNr cterm=none ctermfg=214
+hi CursorLineNr ctermfg=236 ctermbg=236 cterm=none
 hi Define ctermfg=179 ctermbg=NONE cterm=NONE
 hi EasyMotionTarget ctermbg=233 ctermfg=46
 hi ErrorMsg ctermfg=166 ctermbg=NONE cterm=NONE
@@ -93,12 +93,12 @@ hi NonText ctermfg=235 ctermbg=NONE cterm=NONE
 hi Number ctermfg=209 ctermbg=NONE cterm=NONE
 hi PMenu ctermfg=253 ctermbg=235 cterm=NONE
 hi PMenuSbar ctermfg=NONE ctermbg=237 cterm=NONE
-hi PMenuSel ctermfg=215 ctermbg=234 cterm=NONE
+hi PMenuSel ctermfg=215 ctermbg=233 cterm=NONE
 hi PMenuThumb ctermfg=179 ctermbg=215 cterm=NONE
 hi PreCondit ctermfg=179 ctermbg=NONE cterm=NONE
 hi PreProc ctermfg=179 ctermbg=NONE cterm=NONE
 hi Question ctermfg=178 ctermbg=NONE cterm=NONE
-hi SignColumn ctermfg=145 ctermbg=234 cterm=NONE
+hi SignColumn ctermfg=145 ctermbg=233 cterm=NONE
 hi Special ctermfg=209 ctermbg=NONE cterm=NONE
 hi SpecialKey ctermfg=8 ctermbg=NONE cterm=NONE
 hi Statement ctermfg=215 ctermbg=NONE cterm=NONE
