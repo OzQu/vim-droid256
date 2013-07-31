@@ -65,7 +65,7 @@ hi SpellRare ctermfg=166 ctermbg=236 cterm=NONE
 "hi Typedef -- no settings --
 "hi Underlined -- no settings --
 "hi Union -- no settings --
-hi Visual ctermbg=235 cterm=NONE
+hi Visual ctermbg=237 cterm=NONE
 "hi VisualNOS -- no settings --
 "hi WarningMsg -- no settings --
 "hi WildMenu -- no settings --
