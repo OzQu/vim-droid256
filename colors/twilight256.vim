@@ -31,6 +31,11 @@ let g:colors_name = "twilight256"
 "hi DiffChange -- no settings --
 "hi DiffDelete -- no settings --
 "hi DiffText -- no settings --
+highlight StartifyBracket   ctermfg=240
+highlight StartifyHeader    ctermfg=203
+highlight StartifyNumber    ctermfg=215
+highlight StartifyPath      ctermfg=245
+highlight StartifySlash     ctermfg=240
 highlight DiffAdd           cterm=bold ctermbg=none ctermfg=112
 highlight DiffDelete        cterm=bold ctermbg=none ctermfg=160
 highlight DiffChange        cterm=bold ctermbg=none ctermfg=220
@@ -72,11 +77,11 @@ hi Visual ctermbg=237 cterm=NONE
 "hi clear -- no settings --
 hi Boolean ctermfg=186 ctermbg=NONE cterm=NONE
 hi Character ctermfg=173 ctermbg=NONE cterm=NONE
-hi Comment ctermfg=59 ctermbg=NONE cterm=NONE
+hi Comment ctermfg=59 ctermbg=NONE cterm=italic
 hi Constant ctermfg=173 ctermbg=NONE cterm=NONE
 hi Cursor ctermfg=233 ctermbg=254 cterm=NONE
 hi CursorColumn ctermfg=NONE ctermbg=235 cterm=NONE
-hi CursorLine ctermfg=NONE ctermbg=235 cterm=NONE
+hi CursorLine ctermfg=NONE ctermbg=234 cterm=NONE
 hi CursorLineNr ctermfg=236 ctermbg=236 cterm=none
 hi Define ctermfg=179 ctermbg=NONE cterm=NONE
 hi EasyMotionTarget ctermbg=233 ctermfg=46
@@ -102,16 +107,16 @@ hi SignColumn ctermfg=145 ctermbg=233 cterm=NONE
 hi Special ctermfg=209 ctermbg=NONE cterm=NONE
 hi SpecialKey ctermfg=8 ctermbg=NONE cterm=NONE
 hi Statement ctermfg=215 ctermbg=NONE cterm=NONE
-hi StatusLine ctermfg=255 ctermbg=236 cterm=NONE
-hi StatusLineNC ctermfg=236 ctermbg=236 cterm=NONE
+hi StatusLine ctermfg=255 ctermbg=236 cterm=italic
+hi StatusLineNC ctermfg=236 ctermbg=236 cterm=italic
 hi String ctermfg=149 ctermbg=NONE cterm=NONE
 hi Structure ctermfg=247 ctermbg=NONE cterm=NONE
 hi TabLine ctermfg=NONE ctermbg=7 cterm=NONE
 hi TabLineFill ctermfg=247 ctermbg=NONE cterm=NONE
 hi TabLineSel ctermfg=NONE ctermbg=255 cterm=NONE
 hi Title ctermfg=143 ctermbg=NONE cterm=NONE
-hi Todo ctermfg=196 ctermbg=NONE cterm=NONE
-hi Type ctermfg=249 ctermbg=NONE cterm=NONE
+hi Todo ctermfg=196 ctermbg=NONE cterm=italic
+hi Type ctermfg=249 ctermbg=NONE cterm=italic
 hi VertSplit ctermfg=59 ctermbg=237 cterm=NONE
 hi cformat ctermfg=176 ctermbg=238 cterm=NONE
 hi cspecialcharacter ctermfg=176 ctermbg=238 cterm=NONE
