@@ -58,7 +58,7 @@ hi ColorColumn ctermbg=235
 "hi MoreMsg -- no settings --
 "hi Operator -- no settings --
 "hi Repeat -- no settings --
-hi Search ctermfg=227 ctermbg=NONE
+hi Search ctermfg=227 ctermbg=NONE cterm=bold
 "hi SpecialChar -- no settings --
 "hi SpecialComment -- no settings --
 hi SpellBad ctermfg=166 ctermbg=236 cterm=NONE
@@ -82,7 +82,7 @@ hi Constant ctermfg=173 ctermbg=NONE cterm=NONE
 hi Cursor ctermfg=233 ctermbg=254 cterm=NONE
 hi CursorColumn ctermfg=NONE ctermbg=235 cterm=NONE
 hi CursorLine ctermfg=NONE ctermbg=234 cterm=NONE
-hi CursorLineNr ctermfg=236 ctermbg=236 cterm=none
+hi CursorLineNr ctermfg=236 ctermbg=235 cterm=none
 hi Define ctermfg=179 ctermbg=NONE cterm=NONE
 hi EasyMotionTarget ctermbg=233 ctermfg=46
 hi ErrorMsg ctermfg=166 ctermbg=NONE cterm=NONE
@@ -90,9 +90,9 @@ hi Folded ctermfg=103 ctermbg=238 cterm=NONE
 hi Function ctermfg=186 ctermbg=NONE cterm=NONE
 hi Identifier ctermfg=105 ctermbg=NONE cterm=NONE
 hi Include ctermfg=179 ctermbg=NONE cterm=NONE
-hi LineNr ctermfg=250 ctermbg=236 cterm=NONE
+hi LineNr ctermfg=250 ctermbg=235 cterm=NONE
 hi Macro ctermfg=179 ctermbg=NONE cterm=NONE
-hi MatchParen ctermfg=255 ctermbg=NONE cterm=NONE
+hi MatchParen ctermfg=255 ctermbg=NONE cterm=bold
 hi ModeMsg ctermfg=249 ctermbg=NONE cterm=NONE
 hi NonText ctermfg=235 ctermbg=NONE cterm=NONE
 hi Number ctermfg=209 ctermbg=NONE cterm=NONE
@@ -115,7 +115,7 @@ hi TabLine ctermfg=NONE ctermbg=7 cterm=NONE
 hi TabLineFill ctermfg=247 ctermbg=NONE cterm=NONE
 hi TabLineSel ctermfg=NONE ctermbg=255 cterm=NONE
 hi Title ctermfg=143 ctermbg=NONE cterm=NONE
-hi Todo ctermfg=196 ctermbg=NONE cterm=italic
+hi Todo ctermfg=196 ctermbg=NONE cterm=italic,bold
 hi Type ctermfg=249 ctermbg=NONE cterm=italic
 hi VertSplit ctermfg=59 ctermbg=237 cterm=NONE
 hi cformat ctermfg=176 ctermbg=238 cterm=NONE
