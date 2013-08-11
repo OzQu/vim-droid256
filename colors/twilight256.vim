@@ -11,13 +11,17 @@ endif
 
 if exists("g:twilight_transparent") && g:twilight_transparent == 1
 	hi Normal ctermfg=15 ctermbg=none cterm=NONE
+	hi NonText ctermfg=235 ctermbg=none  cterm=NONE
 else
 	hi Normal ctermfg=15 ctermbg=233 cterm=NONE
+	hi NonText ctermfg=235 ctermbg=233 cterm=NONE
 endif
 
 set t_Co=256
 let g:colors_name = "twilight256"
 
+highlight multiple_cursors_cursor ctermfg=232 ctermbg=253
+highlight link multiple_cursors_visual Visual
 "hi CTagsClass -- no settings --
 "hi CTagsGlobalConstant -- no settings --
 "hi CTagsGlobalVariable -- no settings --
@@ -45,7 +49,7 @@ highlight SignifySignChange cterm=bold ctermbg=233  ctermfg=220
 "hi Directory -- no settings --
 "hi EnumerationName -- no settings --
 "hi EnumerationValue -- no settings --
-hi Error ctermfg=166 ctermbg=236 cterm=NONE
+hi Error ctermfg=236 ctermbg=none cterm=NONE
 hi ColorColumn ctermbg=235
 "hi Exception -- no settings --
 "hi Float -- no settings --
@@ -79,7 +83,7 @@ hi Boolean ctermfg=186 ctermbg=NONE cterm=NONE
 hi Character ctermfg=173 ctermbg=NONE cterm=NONE
 hi Comment ctermfg=59 ctermbg=NONE cterm=italic
 hi Constant ctermfg=173 ctermbg=NONE cterm=NONE
-hi Cursor ctermfg=233 ctermbg=254 cterm=NONE
+hi Cursor ctermfg=232 ctermbg=254 cterm=NONE
 hi CursorColumn ctermfg=NONE ctermbg=235 cterm=NONE
 hi CursorLine ctermfg=NONE ctermbg=234 cterm=NONE
 hi CursorLineNr ctermfg=236 ctermbg=235 cterm=none
@@ -94,7 +98,6 @@ hi LineNr ctermfg=250 ctermbg=235 cterm=NONE
 hi Macro ctermfg=179 ctermbg=NONE cterm=NONE
 hi MatchParen ctermfg=255 ctermbg=NONE cterm=bold
 hi ModeMsg ctermfg=249 ctermbg=NONE cterm=NONE
-hi NonText ctermfg=235 ctermbg=NONE cterm=NONE
 hi Number ctermfg=209 ctermbg=NONE cterm=NONE
 hi PMenu ctermfg=253 ctermbg=235 cterm=NONE
 hi PMenuSbar ctermfg=NONE ctermbg=237 cterm=NONE
