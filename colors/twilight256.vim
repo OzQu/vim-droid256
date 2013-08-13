@@ -20,8 +20,6 @@ endif
 set t_Co=256
 let g:colors_name = "twilight256"
 
-highlight multiple_cursors_cursor ctermfg=232 ctermbg=253
-highlight link multiple_cursors_visual Visual
 "hi CTagsClass -- no settings --
 "hi CTagsGlobalConstant -- no settings --
 "hi CTagsGlobalVariable -- no settings --
@@ -35,22 +33,8 @@ highlight link multiple_cursors_visual Visual
 "hi DiffChange -- no settings --
 "hi DiffDelete -- no settings --
 "hi DiffText -- no settings --
-highlight StartifyBracket   ctermfg=240
-highlight StartifyHeader    ctermfg=203
-highlight StartifyNumber    ctermfg=215
-highlight StartifyPath      ctermfg=245
-highlight StartifySlash     ctermfg=240
-highlight DiffAdd           cterm=bold ctermbg=none ctermfg=112
-highlight DiffDelete        cterm=bold ctermbg=none ctermfg=160
-highlight DiffChange        cterm=bold ctermbg=none ctermfg=220
-highlight SignifySignAdd    cterm=bold ctermbg=233  ctermfg=112
-highlight SignifySignDelete cterm=bold ctermbg=233  ctermfg=160
-highlight SignifySignChange cterm=bold ctermbg=233  ctermfg=220
-"hi Directory -- no settings --
 "hi EnumerationName -- no settings --
 "hi EnumerationValue -- no settings --
-hi Error ctermfg=236 ctermbg=none cterm=NONE
-hi ColorColumn ctermbg=235
 "hi Exception -- no settings --
 "hi Float -- no settings --
 "hi FoldColumn -- no settings --
@@ -62,25 +46,20 @@ hi ColorColumn ctermbg=235
 "hi MoreMsg -- no settings --
 "hi Operator -- no settings --
 "hi Repeat -- no settings --
-hi Search ctermfg=227 ctermbg=NONE cterm=bold
 "hi SpecialChar -- no settings --
 "hi SpecialComment -- no settings --
-hi SpellBad ctermfg=166 ctermbg=236 cterm=NONE
-hi SpellCap ctermfg=166 ctermbg=236 cterm=NONE
-hi SpellLocal ctermfg=166 ctermbg=236 cterm=NONE
-hi SpellRare ctermfg=166 ctermbg=236 cterm=NONE
 "hi StorageClass -- no settings --
 "hi Tag -- no settings --
 "hi Typedef -- no settings --
 "hi Underlined -- no settings --
 "hi Union -- no settings --
-hi Visual ctermbg=237 cterm=NONE
 "hi VisualNOS -- no settings --
 "hi WarningMsg -- no settings --
 "hi WildMenu -- no settings --
 "hi clear -- no settings --
 hi Boolean ctermfg=186 ctermbg=NONE cterm=NONE
 hi Character ctermfg=173 ctermbg=NONE cterm=NONE
+hi ColorColumn ctermbg=235
 hi Comment ctermfg=59 ctermbg=NONE cterm=italic
 hi Constant ctermfg=173 ctermbg=NONE cterm=NONE
 hi Cursor ctermfg=232 ctermbg=254 cterm=NONE
@@ -89,6 +68,7 @@ hi CursorLine ctermfg=NONE ctermbg=234 cterm=NONE
 hi CursorLineNr ctermfg=236 ctermbg=235 cterm=none
 hi Define ctermfg=179 ctermbg=NONE cterm=NONE
 hi EasyMotionTarget ctermbg=233 ctermfg=46
+hi Error ctermfg=236 ctermbg=none cterm=NONE
 hi ErrorMsg ctermfg=166 ctermbg=NONE cterm=NONE
 hi Folded ctermfg=103 ctermbg=238 cterm=NONE
 hi Function ctermfg=186 ctermbg=NONE cterm=NONE
@@ -106,9 +86,14 @@ hi PMenuThumb ctermfg=179 ctermbg=215 cterm=NONE
 hi PreCondit ctermfg=179 ctermbg=NONE cterm=NONE
 hi PreProc ctermfg=179 ctermbg=NONE cterm=NONE
 hi Question ctermfg=178 ctermbg=NONE cterm=NONE
+hi Search ctermfg=227 ctermbg=NONE cterm=bold
 hi SignColumn ctermfg=145 ctermbg=233 cterm=NONE
 hi Special ctermfg=209 ctermbg=NONE cterm=NONE
 hi SpecialKey ctermfg=8 ctermbg=NONE cterm=NONE
+hi SpellBad ctermfg=166 ctermbg=236 cterm=NONE
+hi SpellCap ctermfg=166 ctermbg=236 cterm=NONE
+hi SpellLocal ctermfg=166 ctermbg=236 cterm=NONE
+hi SpellRare ctermfg=166 ctermbg=236 cterm=NONE
 hi Statement ctermfg=215 ctermbg=NONE cterm=NONE
 hi StatusLine ctermfg=255 ctermbg=236 cterm=italic
 hi StatusLineNC ctermfg=236 ctermbg=236 cterm=italic
@@ -120,7 +105,8 @@ hi TabLineSel ctermfg=NONE ctermbg=255 cterm=NONE
 hi Title ctermfg=143 ctermbg=NONE cterm=NONE
 hi Todo ctermfg=196 ctermbg=NONE cterm=italic,bold
 hi Type ctermfg=249 ctermbg=NONE cterm=italic
-hi VertSplit ctermfg=59 ctermbg=237 cterm=NONE
+hi VertSplit ctermfg=237 ctermbg=none cterm=NONE
+hi Visual ctermbg=237 cterm=NONE
 hi cformat ctermfg=176 ctermbg=238 cterm=NONE
 hi cspecialcharacter ctermfg=176 ctermbg=238 cterm=NONE
 hi cursorim ctermfg=238 ctermbg=105 cterm=NONE
@@ -140,3 +126,17 @@ hi mbevisiblenormal ctermfg=252 ctermbg=60 cterm=NONE
 hi perlspecialmatch ctermfg=176 ctermbg=238 cterm=NONE
 hi perlspecialstring ctermfg=176 ctermbg=238 cterm=NONE
 hi taglisttagname ctermfg=105 ctermbg=NONE cterm=NONE
+hi DiffAdd           cterm=bold ctermbg=none ctermfg=112
+hi DiffChange        cterm=bold ctermbg=none ctermfg=220
+hi DiffDelete        cterm=bold ctermbg=none ctermfg=160
+hi Directory ctermfg=172 ctermbg=none cterm=none 
+hi SignifySignAdd    cterm=bold ctermbg=233  ctermfg=112
+hi SignifySignChange cterm=bold ctermbg=233  ctermfg=220
+hi SignifySignDelete cterm=bold ctermbg=233  ctermfg=160
+hi StartifyBracket   ctermfg=236
+hi StartifyHeader    ctermfg=154
+hi StartifyNumber    ctermfg=148
+hi StartifyPath      ctermfg=246
+hi StartifySlash     ctermfg=240
+hi link multiple_cursors_visual Visual
+hi multiple_cursors_cursor ctermfg=232 ctermbg=253
