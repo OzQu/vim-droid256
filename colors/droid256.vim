@@ -252,3 +252,15 @@ else
     hi SignifySignChange           ctermfg=220  ctermbg=233  cterm=bold
     hi SignifySignDelete           ctermfg=160  ctermbg=233  cterm=bold
 endif
+
+let g:rbpt_colorpairs = [
+    \ ['237', 'DarkOrchid3'],
+    \ ['240', 'firebrick3'],
+    \ ['243', 'RoyalBlue3'],
+    \ ['246', 'DarkOrchid3'],
+    \ ['249', 'SeaGreen3'],
+    \ ['252', 'DarkOrchid3'],
+    \ ['255', 'firebrick3'],
+    \ ]
+let g:rbpt_max = 7
+
