@@ -164,7 +164,7 @@ else
     hi Cursor                      ctermfg=232  ctermbg=254  cterm=none
     hi CursorColumn                ctermfg=none ctermbg=235  cterm=none
     hi CursorLine                  ctermbg=234  cterm=none
-    hi CursorLineNr                ctermfg=235  ctermbg=235  cterm=none
+    hi CursorLineNr                ctermfg=118  ctermbg=235  cterm=none
     hi Define                      ctermfg=129  ctermbg=none cterm=none
     hi DiffAdd                     ctermfg=112  ctermbg=none cterm=bold
     hi DiffChange                  ctermfg=220  ctermbg=none cterm=bold
@@ -213,7 +213,7 @@ else
     hi StatusLine                  ctermfg=255  ctermbg=235  cterm=none
     hi StatusLineNC                ctermfg=236  ctermbg=235  cterm=none
     hi StorageClass                ctermfg=245  ctermbg=none cterm=none
-    hi String                      ctermfg=250  ctermbg=none cterm=italic
+    hi String                      ctermfg=247  ctermbg=none cterm=italic
     hi Structure                   ctermfg=246  ctermbg=none cterm=bold
     hi SyntasticErrorSign          ctermfg=196  ctermbg=none
     hi SyntasticWarningSign        ctermfg=191  ctermbg=none
