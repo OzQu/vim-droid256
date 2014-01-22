@@ -84,7 +84,7 @@ hi Keyword                     ctermfg=106  ctermbg=none cterm=none
 hi Label                       ctermfg=249  ctermbg=none cterm=italic
 hi LineNr                      ctermfg=245  ctermbg=235  cterm=none
 hi Macro                       ctermfg=129  ctermbg=none cterm=none
-hi MatchParen                  ctermfg=255  ctermbg=none cterm=bold
+hi MatchParen                  ctermfg=118  ctermbg=none cterm=underline
 hi ModeMsg                     ctermfg=249  ctermbg=none cterm=none
 hi Number                      ctermfg=112  ctermbg=none cterm=none
 hi Operator                    ctermfg=247  ctermbg=none
