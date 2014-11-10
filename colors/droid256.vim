@@ -153,6 +153,13 @@ hi SignifySignAdd              ctermfg=112  ctermbg=233  cterm=bold
 hi SignifySignChange           ctermfg=220  ctermbg=233  cterm=bold
 hi SignifySignDelete           ctermfg=160  ctermbg=233  cterm=bold
 
+hi InterestingWord1 ctermfg=16 ctermbg=214
+hi InterestingWord2 ctermfg=16 ctermbg=154
+hi InterestingWord3 ctermfg=16 ctermbg=121
+hi InterestingWord4 ctermfg=16 ctermbg=137
+hi InterestingWord5 ctermfg=16 ctermbg=211
+hi InterestingWord6 ctermfg=16 ctermbg=195
+
 let g:rbpt_colorpairs = [
     \ ['237', 'DarkOrchid3'],
     \ ['240', 'firebrick3'],
