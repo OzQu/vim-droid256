@@ -8,17 +8,6 @@ if version > 580
 endif
 
 
-if exists("g:droid_transparent") && g:droid_transparent == 1
-    hi Normal ctermfg=250 ctermbg=none cterm=none
-    hi NonText ctermfg=none ctermbg=none  cterm=none
-elseif exists("g:droid_day") && g:droid_day == 1
-    hi Normal ctermfg=236 ctermbg=254 cterm=none
-    hi NonText ctermfg=254 ctermbg=254 cterm=none
-else
-    hi Normal ctermfg=250 ctermbg=233 cterm=none
-    hi NonText ctermfg=233 ctermbg=233 cterm=none
-endif
-
 set t_Co=256
 let g:colors_name = "droid256"
 
@@ -170,4 +159,17 @@ let g:rbpt_colorpairs = [
     \ ['255', 'firebrick3'],
     \ ]
 let g:rbpt_max = 7
+
+
+if exists("g:droid_transparent") && g:droid_transparent == 1
+    hi Normal ctermfg=250 ctermbg=none cterm=none
+    hi NonText ctermfg=235 ctermbg=none  cterm=none
+    hi SignColumn =145  ctermbg=none  cterm=none
+elseif exists("g:droid_day") && g:droid_day == 1
+    hi Normal ctermfg=236 ctermbg=254 cterm=none
+    hi NonText ctermfg=254 ctermbg=254 cterm=none
+else
+    hi Normal ctermfg=250 ctermbg=233 cterm=none
+    hi NonText ctermfg=233 ctermbg=233 cterm=none
+endif
 
