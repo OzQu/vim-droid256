@@ -47,7 +47,7 @@ hi WildMenu                    ctermfg=232  ctermbg=148  cterm=bold
 hi Boolean                     ctermfg=154  ctermbg=none cterm=bold
 hi Character                   ctermfg=112  ctermbg=none cterm=none
 hi ColorColumn                 ctermbg=235
-hi Comment                     ctermfg=239  ctermbg=none cterm=italic
+hi Comment                     ctermfg=230  ctermbg=none cterm=italic
 hi Debug                       ctermfg=214  ctermbg=none cterm=none
 hi Conditional                 ctermfg=252  ctermbg=none cterm=bold
 hi Constant                    ctermfg=154  ctermbg=none cterm=bold
